@@ -1,0 +1,6 @@
+# CODEOWNERS
+# Global owner — all files require review from @Abderraouf-yt
+* @Abderraouf-yt
+
+# Security-sensitive files
+SECURITY.md @Abderraouf-yt

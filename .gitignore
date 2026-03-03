@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Agent / AI IDE state & local configs
+.agents/skills/
+.agent/
+_agents/
+_agent/
+.gemini/
+.cursor/
+.windsurf/
+.claude/*.local.md
+skills-lock.json
+mcp_config.json
+
+# Secrets & Environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets.json
